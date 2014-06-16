@@ -13,7 +13,7 @@ public class ChessItem : MonoBehaviour {
     int[] XMover;
     int[] YMover;
 
-	void Awake()
+    void Awake()
     {
         position = new int[2];
         position[0] = int.Parse(start[1].ToString());
