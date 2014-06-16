@@ -12,7 +12,7 @@ public class ChessItem : MonoBehaviour {
 
     int[] XMover;
     int[] YMover;
-
+    int Mover;
     void Awake()
     {
         position = new int[2];
