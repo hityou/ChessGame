@@ -16,10 +16,7 @@ public class GateItem : MonoBehaviour {
 
     void HideFoot()
     {
-        /*foreach (Transform t in m_map)
-        {
-            t.GetComponent<GridItem>().HideFoot();
-        }*/
+        
     }
 
     void SelectChess(GameObject a_chess)
@@ -30,7 +27,7 @@ public class GateItem : MonoBehaviour {
         //int grid = ci.grid;
 
         ArrayList foots = new ArrayList();
-        foreach (int dir in ci.dirs)
+        //foreach (int dir in ci.dirs)
         {
             //foots.Add(GridItem.NEAR[grid, dir]);
         }
